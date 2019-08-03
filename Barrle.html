@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link href="" rel="stylesheet">
-  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
   <style>
     * {
       margin: 0;
@@ -120,7 +120,7 @@
         color = Math.random().toString(16).substring(2,8); // 颜色为随机返回16并在其提取字符串中介于两个指定下标之间的字符;
         width = Math.floor(Math.random() * 100 + 50);  // 宽度为随机的一个整数 * 100 + 50
         height = Math.floor(Math.random() * 50 + 50);  // 高度为随机的一个整数 * 30 + 50
-        urls.push("http://placehold.it/" + width + "x" + height + "/" + color + "/fff"); // 获取并推送图片内容
+        urls.push("https://placehold.it/" + width + "x" + height + "/" + color + "/fff"); // 获取并推送图片内容
       }
        return urls;  
     }
@@ -210,7 +210,7 @@
           color = Math.random().toString(16).substring(2, 8);
           width = Math.floor(Math.random() * 100 + 50);
           height = Math.floor(Math.random() * 30 + 50);
-          urls.push("http://placehold.it/" + width + "x" + height + "/" + color + "/fff");
+          urls.push("https://placehold.it/" + width + "x" + height + "/" + color + "/fff");
         }
         return urls;
       }
